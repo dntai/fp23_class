@@ -1,0 +1,24 @@
+# This is the implicit global project's config file, which is only used when
+# 'stack' is run outside of a real project. Settings here do _not_ act as
+# defaults for all projects. To change Stack's default settings, edit
+# '/root/.stack/config.yaml' instead.
+#
+# For more information about Stack's configuration, see
+# http://docs.haskellstack.org/en/stable/yaml_configuration/
+#
+packages: []
+resolver: lts-21.23
+# resolver: lts-21.23 (ghc 9.4.8)
+# resolver: lts-18.28 (ghc 8.10.7)
+# mpiler: ghc-8.10.7
+# compiler-check: match-exact
+
+allow-newer: true
+allow-newer-deps: 
+- ihaskell
+- ihaskell-display
+extra-deps:
+- ihaskell-0.11.0.0
+- ipython-kernel-0.11.0.0
+- ghc-parser-0.2.6.0
+- ihaskell-plot-0.3.0.1

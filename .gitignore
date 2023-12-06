@@ -1,0 +1,10 @@
+# common file
+*.lock
+
+# common folder
+.*/
+
+# project
+
+# exception
+!.gitignore
