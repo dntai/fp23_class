@@ -1,5 +1,4 @@
 # FUNCTIONAL PROGRAMMING CLASS (08/2023)
-Ton Duc Thang University, HCMC, Vietnam<br/>
 Lecturer: **Dr. Do Nhu Tai**<br/>
 
 ## Theories 
