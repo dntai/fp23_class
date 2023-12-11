@@ -41,3 +41,7 @@
     > git remote add origin https://github.com/dntai/fp23_class
 
     > git push --set-upstream origin/gh-pages gh-pages
+    
+    > git push --set-upstream origin data
+
+    > git pull --set-upstream origin data
