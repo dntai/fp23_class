@@ -31,4 +31,6 @@ echo "install ihaskell-hvega..." && stack install ihaskell-hvega --fast
 echo "install Chart..." && stack install Chart --fast
 echo "install SVG..." && stack install svg-builder --fast
 
+# echo "install hasktorch..." && stack install hasktorch --fast
+
 echo "----------------------------"
