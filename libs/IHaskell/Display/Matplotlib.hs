@@ -13,6 +13,10 @@ import IHaskell.Display
 toSvg' :: Matplotlib -> IO (Either String String)
 toSvg' m = withMplot m (\s -> python $ pyIncludes "" ++ s ++ pySVG)
 
+printModuleName :: IO ()
+printModuleName = do
+    putStrLn $ "--- IHaskell.Display.Matplotlib ---"
+
 pySVG' :: [[Char]]
 pySVG' =
   ["import io"

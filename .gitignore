@@ -1,5 +1,9 @@
 # common file
 *.lock
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
 
 # common folder
 .*/
